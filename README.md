@@ -1,7 +1,7 @@
 # Unity Engine
 
 ---
-## Spis treści
+##### To repozytorium zawiera notatki z nauki silnika Unity, obejmujące:
 
 - [Programowanie C#](Notes/ProgramowanieCSharp.md)
   - [GetComponent](Notes/ProgramowanieCSharp.md#getcomponent)
@@ -14,6 +14,7 @@
   - [Time.deltaTime](Notes/ProgramowanieCSharp.md#timedeltatime)
   - [Właściwości](Notes/ProgramowanieCSharp.md#właściwości)
   - [Korutyny (Coroutine)](Notes/ProgramowanieCSharp.md#korutyny-coroutine)
+  - [InvokeRepeating()](Notes/ProgramowanieCSharp.md#invokerepeating)
 
 - [UI - User Interface](Notes/UI.md)
 

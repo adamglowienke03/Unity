@@ -13,6 +13,7 @@
   - [Time.deltaTime](#timedeltatime)
   - [Właściwości](#właściwości)
   - [Korutyny (Coroutine)](#korutyny-coroutine)
+  - [InvokeRepeating()](#invokerepeating)
 ---
 ### GetComponent
  - `GetComponent` - instrukcja która pomoże dostać się do danego komponentu
@@ -39,7 +40,7 @@ Serialized Field - dzięki temu zmienna jest serializowana i będzie pokazana w 
 ```csharp
 [SerializedField] Transform trans;
 ```
-![Inspektor](ss/serialField.png)
+![Inspektor](../ss/serialField.png)
 lub transform w taki sposób:
 `transform.position = ...`
 

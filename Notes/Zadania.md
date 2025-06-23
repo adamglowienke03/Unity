@@ -32,4 +32,5 @@ public class dice : MonoBehaviour
 }
 ```
 W inspektorze trzeba dodać png ścian kostek:
-![Kostka](/ss/diceEx.png)
+
+![Kostka](ss/diceEx.png)

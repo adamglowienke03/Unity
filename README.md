@@ -1,7 +1,7 @@
 # Unity Engine
 
 ---
-##### To repozytorium zawiera notatki z nauki silnika Unity, obejmujące:
+#### To repozytorium zawiera notatki z nauki silnika Unity, obejmujące:
 
 - [Programowanie C#](Notes/ProgramowanieCSharp.md)
   - [GetComponent](Notes/ProgramowanieCSharp.md#getcomponent)

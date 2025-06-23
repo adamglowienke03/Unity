@@ -1,5 +1,18 @@
-## Programowanie C#
+# Programowanie C#
 
+---
+## Spis treści
+- [Programowanie C#](ProgramowanieCSharp.md)
+  - [GetComponent](#getcomponent)
+  - [Rzutowanie](#rzutowanie)
+  - [Tablice](#tablice)
+  - [Listy](#listy)
+  - [Sortowanie tablic / list](#sortowanie-tablic--list)
+  - [Kolejność eventów](#kolejność-eventów)
+  - [Vector](#vector)
+  - [Time.deltaTime](#timedeltatime)
+  - [Właściwości](#właściwości)
+  - [Korutyny (Coroutine)](#korutyny-coroutine)
 ---
 ### GetComponent
  - `GetComponent` - instrukcja która pomoże dostać się do danego komponentu

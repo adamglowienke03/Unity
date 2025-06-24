@@ -40,7 +40,8 @@ Serialized Field - dzięki temu zmienna jest serializowana i będzie pokazana w 
 ```csharp
 [SerializedField] Transform trans;
 ```
-![Inspektor](../ss/serialField.png)
+![Inspektor](ss/serialField.png)
+
 lub transform w taki sposób:
 `transform.position = ...`
 
@@ -70,9 +71,8 @@ Sposób który jest często używany w Unity
 [SerializeField] GameObject[] enemies;
 ```
 ![GameObject](ss/GameObject[].png)
+
 Pojawia się tablica do której można dołączać prefaby
-
-
 
 Losowa zmiana koloru gracza z dostępnych kolorów w tablicy:
 
@@ -85,6 +85,7 @@ void Start()
 }
 ```
 ![Colors[]](ss/colors[].png)
+
 **Uwaga!** Domyślnie ustawia się kanał alfa 0, więc trzeba zmienić na 255
 
 ---

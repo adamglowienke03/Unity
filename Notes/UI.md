@@ -5,6 +5,7 @@
 - [UI - User Interface](#ui---user-interface.md)
   - [Canvas / Panel](#canvas--panel)
   - [TextMeshPro](#textmeshpro)
+  - [Button](#button)
 
 ---
 ### Canvas / Panel
@@ -14,6 +15,7 @@
 
 ---
 ### TextMeshPro
+
 ![Text](ss/UItext.png)
 
 Żeby dostać się do tekstu w kodzie:
@@ -42,6 +44,7 @@ public void CloseInfoBox() // funkcja musi być publiczna
 }
 ```
 Później w inspektorze przycisku dodajemy napisaną funkcję do onClick()
+
 ![onClick](ss/onClick.png)
 ![funkcja](ss/closeInfoBox.png)
 

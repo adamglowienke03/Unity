@@ -1,6 +1,6 @@
 # Zadania
 
-1. Napisz skrypt który po wcisnięciu lewego przycisku myszy rzuci kostką
+1. Napisz skrypt, który po wcisnięciu lewego przycisku myszy rzuci kostką
 
 ```csharp
 using System.Collections;
@@ -34,3 +34,23 @@ public class dice : MonoBehaviour
 W inspektorze trzeba dodać png ścian kostek:
 
 ![Kostka](ss/diceEx.png)
+
+---
+2. Stwórz UI, dodaj obiekt TextMeshPro i sformatuj go, aby tekst prezentował się prawidłowo. Dodaj skrypt, wyświetlający czas (w pełnych sekundach), który upłynął od czasu uruchomienia programu.
+
+```csharp
+using UnityEngine;
+using TMPro;
+public class Timer : MonoBehaviour
+{
+    [SerializeField] TMP_Text timerText;
+    void Update()
+    {
+        int time = Mathf.FloorToInt(Time.time); // Przekształca liczbę float na pełną liczbę całkowitą poprzez zaokrąglenie w dół.
+        timerText.text = $"{time} s";
+    }
+}
+```
+
+---
+3. 
